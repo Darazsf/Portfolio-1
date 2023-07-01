@@ -16,26 +16,10 @@ img{
     width: 4rem;
 }
 
-.nav a.nav-link{
-    cursor: pointer;
-    font-family: 'Belanosima', sans-serif;
-    font-family: 'Ysabeau Infant', sans-serif;
-
-}
-
 .navbar-nav >li>a{
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
     color: var(--primary-white);
-
-}
-
-.container-fluid{
-    margin-left: 10rem;
-    margin-right: 10rem;
 }
 
 .navbar-nav > li > a.active,  .navbar-nav > li > a:focus{
     border-top: #a8eb12;
 }
-
