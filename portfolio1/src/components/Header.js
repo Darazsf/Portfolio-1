@@ -12,15 +12,15 @@ export default function Header(){
         sequence={[
           "A nevem Darázs Ferenc",
           1000,
-          "",
-          1000,
-          "",
-          1000,
+       
         ]}
         speed={40}
         repeat={2}
         style={{ fontSize: '2em', color:"yellow" }}
       />
+                <div class="wrap">
+                    <button class="button">Kontakt</button>
+                </div>
                 
             </div>
 
