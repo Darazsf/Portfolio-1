@@ -18,7 +18,7 @@ export default function Navbar() {
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Rólam</a>
+                            <a class="nav-link" href="/About">Rólam</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Skills</a>
