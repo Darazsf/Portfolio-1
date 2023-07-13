@@ -1,7 +1,21 @@
-.wrapper{
+.skills-wrapper{
     position: relative;
-        background-color: #1F2833;
+        background-color: #C5C6C7;
         background-size: cover;
         background-position: center;
-        height: 90vh;
+        height: 100vh;
+}
+.valami1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 30%;
+    padding-right: 30%;
 }
