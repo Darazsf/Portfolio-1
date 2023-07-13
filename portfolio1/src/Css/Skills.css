@@ -1,0 +1,7 @@
+.wrapper{
+    position: relative;
+        background-color: #1F2833;
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+}

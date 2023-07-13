@@ -2,14 +2,15 @@
 
 :root{
     --primary-white: rgb(245, 245, 245);
-    --primary-orange:linear-gradient(to right, #e99311, #e3a900, #d6bf00, #c3d500, #a8eb12);
+    --primary-lightBlack:#1F2833;
 }
 
 body{
     font-family: 'Belanosima', sans-serif;
-    font-family: 'Ysabeau Infant', sans-serif;
-    letter-spacing: 0.6px;
+        font-family: 'Ysabeau Infant', sans-serif;
+        letter-spacing: 0.6px;
 }
+
 img{
     border-radius: 1.3rem;
     height: 4rem;

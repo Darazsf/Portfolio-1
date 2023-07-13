@@ -1,0 +1,36 @@
+.about-wrapper{
+    position: relative;
+    background-color:#1F2833;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+}
+h2{
+    color: aqua;
+    text-decoration: underline;
+}
+p{
+    color: aliceblue;
+}
+
+
+#about{
+    display: flex;
+    justify-content: center;
+
+}
+.valami{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 30%;
+    padding-right: 30%;
+}

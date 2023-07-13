@@ -1,13 +1,13 @@
-import "../Css/header.css"
+import "../Css/home.css"
 import { TypeAnimation } from 'react-type-animation';
 
 
-export default function Header(){
+export default function Home(){
 
     return(
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>Üdvözöllek az oldalamon!</h1>
+                <h1>Üdvözöllek az oldalon!</h1>
                 <TypeAnimation
         sequence={[
           "A nevem Darázs Ferenc",
@@ -16,7 +16,7 @@ export default function Header(){
         ]}
         speed={40}
         repeat={2}
-        style={{ fontSize: '2em', color:"yellow" }}
+        style={{ fontSize: '2em', color: "aqua" }}
       />
                 <div class="wrap">
                     <button class="button">Kontakt</button>
