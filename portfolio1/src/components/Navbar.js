@@ -5,15 +5,14 @@ export default function Navbar() {
 
 
     return (
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar sticky-top bg-body-tertiary " data-bs-theme="dark">
-
+        <nav class="navbar navbar-expand-md bg-body-tertiary navbar sticky-top bg-body-tertiary " data-bs-theme="dark">
             <div class="container-fluid">
              <a class="navbar-brand" href="#"><img src="./_3f73c84f-270a-413b-8688-87a58db822ca.jpg" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><TbMenu2/></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
-                    <ul class="navbar-nav me mb-2 mb-lg-0 nav nav-underline">
+                    <ul class="navbar-nav me mb-2 mb-lg-0 nav nav-underline ">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
@@ -32,7 +31,8 @@ export default function Navbar() {
                     </ul>
 
                 </div>
-            </div>
+                </div>
+          
             
         </nav>
     )

@@ -6,21 +6,28 @@
 }
 
 body{
-    font-family: 'Belanosima', sans-serif;
+        font-family: 'Belanosima', sans-serif;
         font-family: 'Ysabeau Infant', sans-serif;
         letter-spacing: 0.6px;
 }
 
 img{
     border-radius: 1.3rem;
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 6rem;
+    margin-left: 2rem;
 }
 
 .navbar-nav >li>a{
     color: var(--primary-white);
+    font-size: large;
+}
+.navbar-nav >li>a:hover{
+   color: aqua;
+   
 }
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a:focus{
-    border-top: #a8eb12;
+
+#navbarSupportedContent{
+    margin-right: 4rem;
 }
