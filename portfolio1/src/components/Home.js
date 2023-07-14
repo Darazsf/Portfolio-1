@@ -16,7 +16,7 @@ export default function Home(){
         ]}
         speed={40}
         repeat={2}
-        style={{ fontSize: '2em', color: "aqua" }}
+        style={{ fontSize: '2em', color: "#DEB992" }}
       />
                 <div class="wrap">
                     <button class="button">Kontakt</button>

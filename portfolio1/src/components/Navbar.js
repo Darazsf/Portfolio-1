@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <nav class="navbar navbar-expand-md bg-body-tertiary navbar sticky-top bg-body-tertiary " data-bs-theme="dark">
             <div class="container-fluid">
-             <a class="navbar-brand" href="#"><img src="./_3f73c84f-270a-413b-8688-87a58db822ca.jpg" /></a>
+             <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><TbMenu2/></span>
                 </button>
@@ -20,10 +20,10 @@ export default function Navbar() {
                             <a class="nav-link" href="#about">Rólam</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
+                            <a class="nav-link" href="#skills">Skills & CV</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolió</a>
+                            <a class="nav-link" href="#">Munkáim</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Kapcsolat</a>

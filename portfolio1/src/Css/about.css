@@ -1,6 +1,6 @@
 .about-wrapper{
     position: relative;
-    background-color:#1F2833;
+    background-color:#6E6E6E;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -8,13 +8,13 @@
 
 }
 h2{
-    color: aqua;
+    color: #DEB992;
     text-decoration: underline;
     font-weight: 500;
     margin-bottom: 2rem;
 }
 p{
-    color: aliceblue;
+    color: white;
     font-size: large;
 }
 
