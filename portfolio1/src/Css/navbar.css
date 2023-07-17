@@ -3,6 +3,9 @@
 :root{
     --primary-white: rgb(245, 245, 245);
     --primary-lightGold:#DEB992;
+    --primary-yellowGreen:#BAFF39;
+    --primary-darkGrey:#323232;
+    --primary-darkGreen:#0C1A1A;
 }
 
 body{
@@ -18,13 +21,24 @@ body{
     margin-right: 1rem;
 }
 .navbar-nav >li>a:hover{
-   color: #BCFD4C
+   color: #BAFF39
    
 }
-.container-fluid{
-    margin-right: 4rem;
-    
+a:active{
+    color: #192505;
 }
+
+.navbar-brand{
+    font-family: 'Great Vibes', cursive;
+    margin-left: 1rem;
+    margin-right: 0;
+    font-size: xx-large;
+}
+#navbarSupportedContent{
+    margin-right:10rem
+}
+
+
 
 
 
