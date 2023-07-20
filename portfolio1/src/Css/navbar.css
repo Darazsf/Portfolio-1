@@ -6,12 +6,14 @@
     --primary-yellowGreen:#BAFF39;
     --primary-darkGrey:#323232;
     --primary-darkGreen:#0C1A1A;
+    
 }
 
 body{
         font-family: 'Belanosima', sans-serif;
         font-family: 'Ysabeau Infant', sans-serif;
         letter-spacing: 0.6px;
+        
 }
 
 
@@ -37,6 +39,7 @@ a:active{
 #navbarSupportedContent{
     margin-right:10rem
 }
+
 
 
 

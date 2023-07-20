@@ -1,7 +1,7 @@
 import "../Css/navbar.css"
 import { TbMenu2 } from "react-icons/tb"
-import { AiOutlineMail } from "react-icons/ai";
-import { AiOutlineGithub } from "react-icons/ai";
+
+
 
 export default function Navbar() {
 

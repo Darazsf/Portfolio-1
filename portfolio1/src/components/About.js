@@ -1,22 +1,32 @@
-import "../Css/about.css"
 
 
-export default function About(){
+export default function AboutComponent(){
 
-    return(
 
-      <>
-        <div  id="about" className="about-wrapper"> 
-        <div className="valami">
-          <div className="glass">
-          <h2>Rólam</h2>
-            <p>Szia! Darázs Ferenc vagyok.
-              Ez az oldal azért jött létre, hogy bemutathassam kisebb projektjeim amiket a Progmatic Acemeny-nél a képzésem során és a szabadidőmben készítettem.
-              Célom a képességeim fejlesztése és pályafutásom megkezdése.</p>
-          </div>
-          </div>
-          </div>
-       
-      </>
-    )
+  return(
+    <>
+   <div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="true" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </>
+
+
+  )
 }
