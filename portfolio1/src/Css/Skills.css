@@ -3,10 +3,11 @@
         background-color: #0C1A1A;
         background-size: cover;
         background-position: center;
-        height: 95vh;
+        height: 100vh;
+
 }
 .container{
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 img{
     width: 300px;

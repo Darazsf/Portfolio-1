@@ -8,3 +8,10 @@
     --primary-darkGreen:#0C1A1A;
     
 }
+.header-wrapper{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color:#FFFAF0;
+}

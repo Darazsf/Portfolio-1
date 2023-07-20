@@ -6,6 +6,7 @@ import { TbMenu2 } from "react-icons/tb"
 export default function Navbar() {
 
 
+
     return (
         <nav class="navbar navbar-expand-xl bg-body-tertiary navbar sticky-top bg-body-tertiary min-vw-100 " data-bs-theme="dark">
             <div class="container-fluid">
@@ -19,7 +20,7 @@ export default function Navbar() {
                             <a class="nav-link" aria-current="page" href="#home"><span>{"< "}</span>Home<span>{" />"}</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about"><span>{"< "}</span>Rólam<span>{" />"}</span></a>
+                            <a class="nav-link" aria-current="page" href="#about"><span>{"< "}</span>Rólam<span>{" />"}</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#skills"><span>{"< "}</span>Skills & CV<span>{" />"}</span></a>
