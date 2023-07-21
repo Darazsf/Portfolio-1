@@ -1,24 +1,12 @@
 .about-wrapper{
-    position: relative;
     background-color:	#abab9a;
-    background-size: cover;
-    background-position: center;
     height: 100vh;
- 
-
 }
-h2{
-    color: #DEB992;
-    text-decoration: underline;
-    font-weight: 500;
-    margin-bottom: 2rem;
 
-}
 p{
     color: white;
     font-size: large;
 }
-
 
 #about{
     display: flex;
@@ -27,7 +15,7 @@ p{
 }
 .valami{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     text-align: center;
     padding-left: 30%;

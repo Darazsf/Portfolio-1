@@ -13,7 +13,6 @@ export default function Skills(){
             <div id="skills" className="skills-wrapper">
                 
                 <div class="container text-center">
-                    <h2>Skills & Cv</h2>
 
                     <div className="cv">
                         <img src={cv} class="img-thumbnail" alt="..." />
