@@ -1,6 +1,6 @@
 import "../Css/home.css"
 import { TypeAnimation } from 'react-type-animation';
-import Navbar from "../components/Navbar";
+
 
 
 
@@ -10,7 +10,6 @@ export default function Home(){
     return(
 
         <>
-            <Navbar/>
             <div id="home">
                 <div className="header-wrapper">
                     <div className="main-info">

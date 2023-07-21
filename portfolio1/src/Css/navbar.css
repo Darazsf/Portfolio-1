@@ -13,21 +13,24 @@ body{
         font-family: 'Belanosima', sans-serif;
         font-family: 'Ysabeau Infant', sans-serif;
         letter-spacing: 0.6px;
-        
+     
 }
-
+.p-3{
+    padding: 0!important;
+}
 
 .navbar-nav >li>a{
     color:var(--primary-lightGold);
     font-size: large;
     margin-right: 1rem;
+    padding: 0;
 }
+
 .navbar-nav >li>a:hover{
-   color: #BAFF39
+    color:#BAFF39;
+   border-bottom: 1px solid greenyellow;
+   max-width: fit-content;
    
-}
-a:active{
-    color: #192505;
 }
 
 .navbar-brand{
@@ -36,8 +39,15 @@ a:active{
     margin-right: 0;
     font-size: xx-large;
 }
-#navbarSupportedContent{
-    margin-right:10rem
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: rgb(186,255,57);
+    background: radial-gradient(circle, rgba(186,255,57,1) 0%, rgba(222,185,146,1) 88%);
+    color: #0C1A1A;
+    border-radius: 10% / 50%;
+    font-weight: 700;
+    max-width: fit-content;
+ 
 }
 
 

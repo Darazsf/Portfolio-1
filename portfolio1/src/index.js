@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './pages/Home';
-import About from './pages/About';
-import Skills from './components/Skills';
-import Projects from './pages/Projects';
+import Navbar from './components/Navbar';
+
 
 
 
@@ -11,12 +9,8 @@ import Projects from './pages/Projects';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-    <>
-        
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
+    <>  
+        <Navbar/>
     </>
 
 );
