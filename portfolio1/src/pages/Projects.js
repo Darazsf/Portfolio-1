@@ -7,7 +7,7 @@ export default function Projects(){
     return(
 
         <>
-         <div className="header-wrapper">
+         <div className="wrapper">
         <h2>Coming soon...</h2>
         </div>
         </>

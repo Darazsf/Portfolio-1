@@ -13,10 +13,5 @@
     background-size: cover;
     background-position: center;
     height: 90vh;
-    
-    
-}
-*{
-    max-width: 100%;
-    
+    color: var(--primary-lightGold);
 }

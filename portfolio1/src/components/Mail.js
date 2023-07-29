@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import "../Css/style.css"
+import "../Css/contacts.css"
+
 
 
 
@@ -17,19 +18,32 @@ export default function Mail() {
           console.log(error.text);
       });
   };
-
+  
   return (
+<>
 
-    <div className='wrapper'>
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+<div className='mail'>
+  <div class="contact-form-wrapper d-flex justify-content-center">
+    <form action="#" class="contact-form" ref={form} onSubmit={sendEmail}>
+      <h5 class="title">Contact us</h5>
+      <p class="description">Feel free to contact us if you need any assistance, any help or another question.
+      </p>
+      <div>
+        <input type="text" name="user_name" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Name" required/>
+      </div>
+      <div>
+        <input type="email" name="user_email" class="form-control rounded border-white mb-3 form-input" placeholder="Email" required/>
+      </div>
+      <div>
+        <textarea name="message" id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Message" required></textarea>
+      </div>
+      <div class="submit-button-wrapper">
+        <input type="submit" value="Send"/>
+      </div>
     </form>
-    </div>
+  </div>
+</div>
+
+    </>
   );
 };
