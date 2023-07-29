@@ -10,9 +10,12 @@ export default function Contact(){
     return(
         <>
             <div className="wrapper" >
+                
                 <div className="contact">
+                
                 <Mail/>
                 </div>
+                
             </div>
         </>
     )
